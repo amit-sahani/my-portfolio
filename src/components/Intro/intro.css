@@ -1,0 +1,60 @@
+#intro-section {
+    width: 100%;
+    height: 95vh;
+    background-color: #f6f6f6;
+    display: flex;
+    padding: 0.25rem;
+}
+
+.basic-info-wrapper{
+    position: relative !important;
+}
+
+#intro-section  div {
+    flex-basis: 50%;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+    
+}
+
+#basic-info {
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 4px;
+    text-align: center;
+}
+
+.heading {
+    font-size: 3rem;
+    color: #343434;
+    font-family: sans-serif;
+    font-weight: 700;
+     line-height: 0.98863636em;
+    text-align: center;
+    text-transform: none;
+    letter-spacing: -0.02em;
+}
+
+.role-heading{
+    color: #343434;
+    font-family: sans-serif;
+    direction: ltr;
+    font-size: 1.5rem;
+    font-family: YAD1aU3sLnI-0;
+    margin-left: 0em;
+    line-height: 1.1875em;
+    text-transform: none;
+    letter-spacing: -0.02em;
+}
+
+.connect-button {
+    margin-top: 3rem;
+    width: 50%;
+    padding: 0.5rem 2rem;
+    background: #343434;
+    color: white;
+    font-weight: 600;
+    font-family: monospace;
+}
